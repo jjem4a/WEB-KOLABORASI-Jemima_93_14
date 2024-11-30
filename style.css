@@ -1,0 +1,231 @@
+.header{
+    width: 1280px;
+    position: fixed;
+}
+/* Kode CSS Navigator */
+ul{
+    list-style: none;
+    background: blue;
+    padding: 0px 0px;
+    margin:120px 0px;
+    position: fixed;
+    width: 1280px;
+    height:60px;
+}
+ul li{
+    display: inline-block;
+    position:relative;
+    height:50px;
+    padding: 5px 5px;
+}
+ul li a{
+    padding: 5px 0px;
+    text-align: center;
+}
+ul a:hover{
+    background-color:rgb(129, 11, 11);
+} 
+/* kode css dropdown */
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    background: blue;
+    position:absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+/* Kode css side bar */
+.column{
+    float: left;
+    padding:0px 5px;
+}
+/* Left column */
+.column.side{
+    margin:170px 0px;
+    width:200px;
+    height:400px;
+    background-color:lavenderblush;
+}
+/* Kode CSS Middle Bar */
+.column.middle{
+    margin: 170px 0px;
+    width: 1027px;
+    height: 400px;
+    background-color:lavender;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+p{
+    color: darkred;
+    text-align: justify;
+    font-size: 17px;
+}
+h2{
+    font-family:fantasy;
+    color: brown;
+}
+.footer{
+    width: 1280px;
+    position:fixed;
+    margin:525px 0px
+}
+
+
+body{
+    background-color:lavender;
+}
+
+
+ h1.pilih{
+    color:crimson;
+    text-align: center;
+    background-color: lavender;
+    font-size: 30px;
+}
+p.pilih{
+    color: navy;
+    font-size: 17px;
+    text-align: center;
+    text-shadow: 20px;
+}
+.column.middle.pengertian{
+margin: 130px 0px;
+width: 1250px;
+height:490px;
+background-color:lavender;
+text-align: center;
+}
+.column.middle.tujuan{
+    margin: 120px 0px;
+    width: 1027px;
+    height:420px;
+    background-color:lavender;
+    text-align: center;
+    font-size: 18px;
+}
+.column.side.tujuan{
+    margin:120px 0px;
+    width:200px;
+    height:660px;
+    background-color: lavenderblush;
+}
+h1.pengertian{
+    color: blue;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.column.middle.bilateral{
+    margin: 120px 0px;
+    width: 1027px;
+    height: 1350px;
+    background-color:lavender;
+    text-align: center;
+    font-size: 18px;
+}
+.column.side.bilateral{
+    margin:120px 0px;
+    width:200px;
+    height:1350px;
+    background-color: lavenderblush;
+    text-align: center;
+}
+h1.bilateral{
+    color:darkmagenta;
+    font-family: 'Times New Roman', Times, serif;
+}
+p.bilateral{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img.back{
+    float: left;
+}
+.column.middle.regional{
+    margin: 120px 0px;
+    width: 1027px;
+    height: 1440px;
+    background-color:lavender;
+    text-align: center;
+    font-size: 18px;
+}
+.column.side.regional{
+    margin:120px 0px;
+    width:200px;
+    height:1440px;
+    background-color: lavenderblush;
+    text-align: center;
+}
+h1.regional{
+    color: crimson;
+    font-family:'Times New Roman', Times, serif;
+}
+p.regional{
+color: rgb(5, 61, 5);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.column.middle.multilateral{
+    margin: 120px 0px;
+    width: 1027px;
+    height: 1550px;
+    background-color:lavender;
+    text-align: center;
+    font-size: 18px;
+}
+.column.side.multilateral{
+    margin:120px 0px;
+    width:200px;
+    height:1540px;
+    background-color: lavenderblush;
+    text-align: center;
+}
+h1.multilateral{
+    color: rgb(127, 96, 19);
+    font-family: 'Times New Roman', Times, serif;
+}
+p.multilateral{
+    color:rgb(109, 11, 65);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1.refleksi{
+    text-align: center;
+    color: rgb(8, 81, 8);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lavenderblush;
+}
+li.pancasila{
+    color:rgb(91, 91, 17) ;
+    padding: 5px;
+    list-style-type: decimal;
+}
+p.kesimpulan{
+    color:rgb(128, 0, 83);
+    
+}
+p.saran{
+    color:rgb(128, 0, 83);
+    text-align: center;
+    
+}
+p.refleksi{
+    color: rgb(91, 91, 17);
+}
+li.daftar{
+    list-style-type:upper-roman;
+}
+h1.daftar{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(227, 161, 205);
+  
+}
+h1.Ucapan{
+    text-align: center;
+    background-color: rgb(227, 161, 205);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
